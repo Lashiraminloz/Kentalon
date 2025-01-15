@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kéntalon - El Idioma Perdido</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #0d0d0d, #1a1a1a);
+            color: #f5f5f5;
+            text-align: center;
+        }
+        header {
+            background: #2e2e2e;
+            padding: 20px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 10px;
+        }
+        nav a {
+            color: #00bcd4;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            padding: 50px 20px;
+        }
+        .cta {
+            margin: 20px 0;
+        }
+        .cta a {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #00bcd4;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta a:hover {
+            background: #008ba3;
+        }
+        footer {
+            background: #2e2e2e;
+            padding: 10px;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+        .background-glow {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 100%);
+            animation: glow 10s infinite alternate;
+        }
+        @keyframes glow {
+            0% { background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(50,50,50,0.5) 100%); }
+            100% { background: radial-gradient(circle, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%); }
+        }
+    </style>
+</head>
+<body>
+    <div class="background-glow"></div>
+    <header>
+        <h1>Kéntalon</h1>
+        <nav>
+            <a href="#explorar">Explorar</a>
+            <a href="#libro">El Libro</a>
+            <a href="#comunidad">Comunidad</a>
+        </nav>
+    </header>
+
+    <div class="section" id="explorar">
+        <h2>Explora el Idioma</h2>
+        <p>Descubre palabras, frases y el misterio detrás del Kéntalon.</p>
+        <div class="cta">
+            <a href="#glosario">Ir al Glosario</a>
+        </div>
+    </div>
+
+    <div class="section" id="libro">
+        <h2>El Libro</h2>
+        <p>Adéntrate en las páginas que conectan mundos y dimensiones.</p>
+        <div class="cta">
+            <a href="#comprar">Comprar Ahora</a>
+        </div>
+    </div>
+
+    <div class="section" id="comunidad">
+        <h2>Únete a la Comunidad</h2>
+        <p>Comparte tus descubrimientos y aprende junto a otros entusiastas del Kéntalon.</p>
+        <div class="cta">
+            <a href="#foro">Ir al Foro</a>
+        </div>
+    </div>
+
+    <div class="section" id="glosario">
+        <h2>Glosario</h2>
+        <p>Aquí podrás explorar las palabras y frases del idioma Kéntalon.</p>
+        <ul>
+            <li><strong>Kéntalon:</strong> El idioma perdido.</li>
+            <li><strong>Zaelot:</strong> Tiempo.</li>
+            <li><strong>Anam:</strong> Persona viva.</li>
+        </ul>
+    </div>
+
+    <div class="section" id="comprar">
+        <h2>Comprar el Libro</h2>
+        <p>Accede a la tienda para obtener tu copia del libro del Kéntalon.</p>
+        <a href="https://example.com" class="cta">Comprar Ahora</a>
+    </div>
+
+    <div class="section" id="foro">
+        <h2>Foro de la Comunidad</h2>
+        <p>Únete al foro para discutir sobre el idioma Kéntalon, compartir tus ideas y aprender con otros.</p>
+        <a href="https://example.com/foro" class="cta">Acceder al Foro</a>
+    </div>
+
+    <footer>
+        <p>© 2025 Kéntalon. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
